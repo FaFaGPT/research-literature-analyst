@@ -3,9 +3,12 @@ type: direction
 title: "{{方向标题}}"
 aliases: []
 topics: []
+claims: []
+evidence_matrices: []
+gap_status: insufficient evidence
 tags: [research/direction]
-created: {{创建日期}}
-updated: {{更新日期}}
+created: "{{创建日期}}"
+updated: "{{更新日期}}"
 ---
 
 # {{2.X 可能的研究内容：方向名称}}
@@ -44,15 +47,19 @@ updated: {{更新日期}}
 
 {{关键结果、baseline、指标、消融与失败情况的综合判断；不可比条件单独说明。}}
 
-### 研究设想：拟开展的内容
+### 跨论文证据与冲突
 
-- 缺口及状态：{{理论/方法/数据/应用；是证据不足、作者提出还是经检索的候选空白}}
-- 最接近工作及区别：{{真实已有工作和待验证的新意}}
-- 可证伪假设：{{支持和反驳条件}}
-- 拟议方法或设计：{{为何改变哪个环节、依据什么机制；尚未完成的部分明确标注}}
-- 所需数据与资源：{{来源可得性、样本/计算/实验条件，区分已知和估计}}
-- 最小验证实验：{{对照、指标、消融或识别策略}}
-- 失败或停止标准：{{什么结果会使该方案失去依据}}
+{{链接或嵌入适配学科的 evidence matrix；解释文献群体为何支持/挑战当前 Claim。存在冲突时写 Observed disagreement → Possible source → Evidence → Current interpretation → Remaining uncertainty。}}
+
+### 研究设想：从证据到可被推翻的方案
+
+- Existing evidence：{{真实 Claim 与矩阵、证据充分性及边界}}
+- Unresolved issue：{{尚未回答的问题、gap_status、最强反例与证伪检索范围}}
+- Candidate mechanism：{{拟议机制的理论依据、与最近邻工作的差别及替代解释}}
+- Research hypothesis：{{可观测的支持/反驳条件；明确尚未验证}}
+- Minimal viable study：{{能区分机制的最小研究；数据/样本/资源、对照、指标、消融或识别策略}}
+- Failure criterion：{{出现什么结果会认为该方向暂时不成立；不可把所有结果都解释为支持}}
+- Stop condition：{{数据不可得、资源等可行性停止条件；与科学反驳分开}}
 
 ### Reviewer Perspective 与可行性
 

@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this skill in research, cite this repository and record the commit you used."
+type: software
+title: research-literature-analyst
+authors:
+  - name: FaFaGPT
+    website: "https://github.com/FaFaGPT"
+repository-code: "https://github.com/FaFaGPT/research-literature-analyst"
+url: "https://github.com/FaFaGPT/research-literature-analyst"
+license: MIT
+abstract: "A Codex skill for doctoral-depth paper reading, evidence-grounded research synthesis, and a persistent Obsidian literature library."
+keywords:
+  - literature review
+  - research synthesis
+  - Codex skill
+  - Obsidian

@@ -12,11 +12,13 @@ source_url: "{{已核实的稳定来源}}"
 version: "{{实际阅读版本}}"
 paper_kind: "{{theory/method/empirical/survey/混合类型}}"
 reading_status: "{{metadata-only/abstract-only/partial-full-text/full-text}}"
+reading_priority: "{{Tier A/Tier B/Tier C/Tier D}}"
+claims: []
 topics: []
 directions: []
 tags: [research/paper]
-created: {{创建日期}}
-updated: {{更新日期}}
+created: "{{创建日期}}"
+updated: "{{更新日期}}"
 ---
 
 # {{完整原题}}
@@ -25,6 +27,7 @@ updated: {{更新日期}}
 
 - 所属主题与方向：{{内部链接}}
 - 本文在研究中的作用：{{全局 motivation、理论基础、方向动机、核心方法、基准或反例}}
+- 阅读优先级及理由：{{与 research question 的关联、证据直接性、方法重要性、减少不确定性或 gap 核查价值；与 reading_status 分开}}
 - 实际读过：{{正文各部分、附录、补充材料；代码查阅状态单独说明}}
 - 未覆盖或访问受限：{{具体范围，或无}}
 
@@ -112,6 +115,7 @@ updated: {{更新日期}}
 
 ## 6. 对本研究的启发
 
+- 关联 Claim 与证据关系：{{已有 Claim 链接及 supports/challenges/qualifies/context-only；未核实不能记为支持}}
 - 已有证据能支撑：{{关联研究地图或方向中的具体判断}}
 - 分析推断：{{推断内容及依据}}
 - 研究设想：{{Possible Extension；可证伪假设、拟议方法、最小验证实验、失败标准}}
