@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/images/logo.png" alt="科研文献阅读与研究地图标志" width="128">
+</p>
+
 # 科研文献阅读与研究地图
 
 [English](README.md) | [简体中文](README.zh-CN.md)
@@ -5,6 +9,8 @@
 一个用于深入阅读科研论文、围绕研究问题持续积累 Obsidian 文献库的 Codex skill。
 
 它把研究动机、理论基础、方法、实验证据和可能开展的研究联系起来：每篇论文有独立笔记，主题总览解释论文之间的关系。
+
+![科研文献精读与 Obsidian 研究地图：论文解析、理论梳理、方法拆解、批判性阅读、研究图谱与研究机会](docs/images/overview.zh-CN.png)
 
 ## 能做什么
 
@@ -47,7 +53,7 @@
 
 ```text
 $skill-installer 请从以下仓库安装 skill：
-https://github.com/Wangmou1234/research-literature-analyst
+https://github.com/FaFaGPT/research-literature-analyst
 使用仓库根目录（path .），安装名称为 research-literature-analyst。
 ```
 
@@ -60,14 +66,14 @@ https://github.com/Wangmou1234/research-literature-analyst
 ```powershell
 $skillRoot = Join-Path $HOME '.agents\skills'
 New-Item -ItemType Directory -Path $skillRoot -Force | Out-Null
-git clone https://github.com/Wangmou1234/research-literature-analyst.git (Join-Path $skillRoot 'research-literature-analyst')
+git clone https://github.com/FaFaGPT/research-literature-analyst.git (Join-Path $skillRoot 'research-literature-analyst')
 ```
 
 **macOS / Linux**
 
 ```bash
 mkdir -p "$HOME/.agents/skills"
-git clone https://github.com/Wangmou1234/research-literature-analyst.git "$HOME/.agents/skills/research-literature-analyst"
+git clone https://github.com/FaFaGPT/research-literature-analyst.git "$HOME/.agents/skills/research-literature-analyst"
 ```
 
 安装后可用 `$research-literature-analyst` 调用；未出现时重启 Codex。本仓库由说明和模板组成，无需安装额外依赖包。

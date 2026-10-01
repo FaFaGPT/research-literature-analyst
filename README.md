@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/images/logo.png" alt="Research Literature Analyst logo" width="128">
+</p>
+
 # Research Literature Analyst
 
 [English](README.md) | [简体中文](README.zh-CN.md)
@@ -5,6 +9,8 @@
 A Codex skill for reading research papers in depth and building a growing Obsidian literature library around a research question.
 
 It connects motivation, theory, methods, experimental evidence, and possible research directions. Each paper has its own note, while a topic map explains how the papers fit together.
+
+![Research Literature Analyst: paper analysis, theory synthesis, method breakdown, critical reading, research mapping, and research opportunities](docs/images/overview.en.png)
 
 ## What it does
 
@@ -47,7 +53,7 @@ Paste this into Codex:
 
 ```text
 $skill-installer Install the skill from
-https://github.com/Wangmou1234/research-literature-analyst
+https://github.com/FaFaGPT/research-literature-analyst
 Use the repository root (path .) and name it research-literature-analyst.
 ```
 
@@ -60,14 +66,14 @@ Choose one installation method. For manual installation, the current official Co
 ```powershell
 $skillRoot = Join-Path $HOME '.agents\skills'
 New-Item -ItemType Directory -Path $skillRoot -Force | Out-Null
-git clone https://github.com/Wangmou1234/research-literature-analyst.git (Join-Path $skillRoot 'research-literature-analyst')
+git clone https://github.com/FaFaGPT/research-literature-analyst.git (Join-Path $skillRoot 'research-literature-analyst')
 ```
 
 **macOS / Linux**
 
 ```bash
 mkdir -p "$HOME/.agents/skills"
-git clone https://github.com/Wangmou1234/research-literature-analyst.git "$HOME/.agents/skills/research-literature-analyst"
+git clone https://github.com/FaFaGPT/research-literature-analyst.git "$HOME/.agents/skills/research-literature-analyst"
 ```
 
 After installation, invoke `$research-literature-analyst`. If it does not appear, restart Codex. This repository contains instructions and templates; it has no package dependencies to install.
