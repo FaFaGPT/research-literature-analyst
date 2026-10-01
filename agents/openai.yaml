@@ -1,0 +1,4 @@
+interface:
+  display_name: "科研文献阅读与研究地图"
+  short_description: "保留既定研究框架，深读理论、方法与实验，持续积累 Obsidian 文献库"
+  default_prompt: "请使用 $research-literature-analyst，围绕我提供的研究主题或论文建立 Obsidian 研究地图，保留 Motivation 和研究内容两大部分，尽量提出五个研究方向，并深入解释核心方法与实验。"
